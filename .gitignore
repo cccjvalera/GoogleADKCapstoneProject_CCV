@@ -34,5 +34,7 @@ venv/
 env/
 myenv/
 
-#Test Scripts
+#do not include these folders
 scripts/
+tools/
+docs/
