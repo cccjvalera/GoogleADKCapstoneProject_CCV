@@ -1,0 +1,28 @@
+# Minimal requirements needed to run RoleFit Analyzer locally
+# Use virtual env (myenv) and then install via: pip install -r requirements.txt
+
+# ADK and GenAI SDKs
+google-adk==1.19.0
+google-genai==1.52.0
+
+# PDF extraction and env support
+PyPDF2==3.0.1
+python-dotenv==1.2.1
+
+# Web server for local development (adk web & FastAPI)
+fastapi==0.118.3
+uvicorn==0.38.0
+starlette==0.48.0
+
+# HTTP clients / utilities
+httpx==0.28.1
+requests==2.32.5
+
+# Pydantic / typed models
+pydantic==2.12.5
+
+# Optional: Smart retry/backoff
+tenacity==9.1.2
+
+# Optional: Add other google-cloud libraries if using GCP features
+google-cloud-aiplatform==1.128.0
