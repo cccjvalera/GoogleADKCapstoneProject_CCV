@@ -1,0 +1,38 @@
+
+# Python
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# CRITICAL: DO NOT COMMIT YOUR .env FILE if it contains sensitive information!
+.env
+
+# Local Data Folder (for local testing only)
+data/
+
+# Model Artifacts & Temporary Files (these will be handled by S3)
+/model_artifacts/ # Ignore this entire directory initially
+*.pkl
+*.tar.gz
+*.json
+/temp_model_package/ # Temporary directory used by your script
+
+#Model artifacts downloaded for testing purposes
+model_extracted/ # Ignore this entire directory
+model_extracted/code/
+
+# VS Code
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+myenv/
+
+#Test Scripts
+scripts/
